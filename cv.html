@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Anik Dev Nath - Curriculum Vitae | AI Engineer & PhD Applicant">
+  <meta name="keywords" content="CV, Resume, AI Engineer, Machine Learning, PhD, Research">
+  <meta name="author" content="Anik Dev Nath">
+  <meta property="og:title" content="CV | Anik Dev Nath">
+  <meta property="og:description" content="Curriculum Vitae of Anik Dev Nath — AI Engineer & PhD Applicant">
+  <meta property="og:type" content="website">
+  <title>CV | Anik Dev Nath</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* CV-specific extras */
+    .cv-page { padding-bottom: 4rem; }
+
+    .cv-download-bar {
+      background: #e8f0fe;
+      border: 1px solid #c5d8f5;
+      border-radius: 8px;
+      padding: 1rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 3rem;
+    }
+
+    .cv-download-bar p { margin: 0; color: #0f4c75; font-weight: 600; }
+
+    .award-item {
+      padding: .75rem 0;
+      border-bottom: 1px solid #f1f3f5;
+    }
+    .award-item:last-child { border-bottom: none; }
+    .award-year { font-size: 0.8rem; font-weight: 700; color: #0f4c75; margin-bottom: .15rem; }
+    .award-title { font-weight: 600; }
+    .award-org { font-size: 0.875rem; color: #666; }
+  </style>
+</head>
+<body>
+
+  <!-- ── Navigation ──────────────────────────────────────── -->
+  <nav class="navbar" role="navigation">
+    <div class="container">
+      <a href="index.html" class="nav-logo">AnikDevNath<span>.</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="cv.html" class="active">CV</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── Page Header ─────────────────────────────────────── -->
+  <header class="page-header">
+    <div class="container">
+      <h1>Curriculum Vitae</h1>
+      <p>AI Engineer &bull; [FILL: X] years of industry experience &bull; PhD Applicant</p>
+    </div>
+  </header>
+
+  <!-- ── CV Content ──────────────────────────────────────── -->
+  <section class="cv-page">
+    <div class="container" style="max-width:900px;">
+
+      <!-- Download bar -->
+      <div class="cv-download-bar">
+        <p>📄 Download the full PDF version of my CV</p>
+        <a href="assets/documents/[FILL-YOUR-NAME]-CV.pdf" class="btn btn-primary" target="_blank" rel="noopener" download>
+          ⬇ Download CV (PDF)
+        </a>
+      </div>
+
+      <!-- ── Education ─────────────────────────────────── -->
+      <div class="cv-section">
+        <div class="cv-section-header">
+          <h3>🎓 Education</h3>
+        </div>
+        <div class="timeline">
+
+          <!-- CUSTOMIZE: Add your actual degrees -->
+          <div class="timeline-item">
+            <p class="timeline-period">2022</p>
+            <p class="timeline-title">B.Sc. in Electrical and Electronic Engineering</p>
+            <p class="timeline-org">Ahsanullah University of Science and Technology, Dhaka, Bangladesh</p>
+            <p class="timeline-desc">
+              [FILL: GPA, thesis title, or notable courses — optional]
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- ── Work Experience ───────────────────────────── -->
+      <div class="cv-section">
+        <div class="cv-section-header">
+          <h3>💼 Work Experience</h3>
+        </div>
+        <div class="timeline">
+
+          <!-- Most recent first -->
+          <div class="timeline-item">
+            <p class="timeline-period">[FILL: Month YYYY – Present]</p>
+            <p class="timeline-title">[FILL: Job Title, e.g., AI Engineer]</p>
+            <p class="timeline-org">[FILL: Company Name], Rangamati Hill District, Bangladesh</p>
+            <p class="timeline-desc">
+              [FILL: 2–4 bullet-point style accomplishments. Use metrics where possible.
+              E.g., "Built and deployed NLP pipeline processing 50K requests/day. Improved model latency by 40%."]
+            </p>
+          </div>
+
+          <div class="timeline-item">
+            <p class="timeline-period">[FILL: Month YYYY – Month YYYY]</p>
+            <p class="timeline-title">[FILL: Job Title, e.g., Machine Learning Intern]</p>
+            <p class="timeline-org">[FILL: Company Name], Rangamati Hill District, Bangladesh</p>
+            <p class="timeline-desc">
+              [FILL: Key responsibilities and achievements.]
+            </p>
+          </div>
+
+          <div class="timeline-item">
+            <p class="timeline-period">[FILL: Month YYYY – Month YYYY]</p>
+            <p class="timeline-title">[FILL: Job Title]</p>
+            <p class="timeline-org">[FILL: Company Name], [FILL: Location]</p>
+            <p class="timeline-desc">
+              [FILL: Key responsibilities.]
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- ── Research Experience ───────────────────────── -->
+      <div class="cv-section">
+        <div class="cv-section-header">
+          <h3>🔬 Research Experience</h3>
+        </div>
+        <div class="timeline">
+
+          <div class="timeline-item">
+            <p class="timeline-period">[FILL: Month YYYY – Present / Month YYYY]</p>
+            <p class="timeline-title">[FILL: Research Role, e.g., Research Assistant / Independent Researcher]</p>
+            <p class="timeline-org">[FILL: Lab / Institution Name], [FILL: Location]</p>
+            <p class="timeline-desc">
+              [FILL: Research focus, supervisor (if any), outcomes — e.g., "Working on X under the supervision of Prof. Y.
+              Resulted in a submission to Z conference."]
+            </p>
+          </div>
+
+          <!-- Add more research positions as needed -->
+
+        </div>
+      </div>
+
+      <!-- ── Technical Skills ──────────────────────────── -->
+      <div class="cv-section">
+        <div class="cv-section-header">
+          <h3>⚙️ Technical Skills</h3>
+        </div>
+        <!-- CUSTOMIZE: Fill in your actual skills per category -->
+        <div class="skills-grid">
+
+          <div class="skill-group">
+            <h4>Languages</h4>
+            <div class="tags">
+              <span class="tag">Python</span>
+              <span class="tag">C++</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">[FILL]</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h4>ML / DL Frameworks</h4>
+            <div class="tags">
+              <span class="tag">PyTorch</span>
+              <span class="tag">TensorFlow</span>
+              <span class="tag">JAX</span>
+              <span class="tag">HuggingFace</span>
+              <span class="tag">[FILL]</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h4>NLP / Vision</h4>
+            <div class="tags">
+              <span class="tag">Transformers</span>
+              <span class="tag">spaCy</span>
+              <span class="tag">OpenCV</span>
+              <span class="tag">NLTK</span>
+              <span class="tag">[FILL]</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h4>MLOps / Infrastructure</h4>
+            <div class="tags">
+              <span class="tag">Docker</span>
+              <span class="tag">Kubernetes</span>
+              <span class="tag">MLflow</span>
+              <span class="tag">FastAPI</span>
+              <span class="tag">[FILL]</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h4>Cloud &amp; Data</h4>
+            <div class="tags">
+              <span class="tag">AWS</span>
+              <span class="tag">GCP</span>
+              <span class="tag">SQL</span>
+              <span class="tag">Spark</span>
+              <span class="tag">[FILL]</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h4>Tools</h4>
+            <div class="tags">
+              <span class="tag">Git</span>
+              <span class="tag">Linux</span>
+              <span class="tag">LaTeX</span>
+              <span class="tag">[FILL]</span>
+            </div>
+          </div>
+
+        </div><!-- /skills-grid -->
+      </div>
+
+      <!-- ── Awards & Achievements ─────────────────────── -->
+      <div class="cv-section">
+        <div class="cv-section-header">
+          <h3>🏆 Awards &amp; Achievements</h3>
+        </div>
+
+        <!-- CUSTOMIZE: Add your actual awards -->
+        <div class="award-item">
+          <p class="award-year">[FILL: Year]</p>
+          <p class="award-title">[FILL: Award/Achievement Title]</p>
+          <p class="award-org">[FILL: Awarding Organization / Institution]</p>
+        </div>
+
+        <div class="award-item">
+          <p class="award-year">[FILL: Year]</p>
+          <p class="award-title">[FILL: Award/Achievement Title]</p>
+          <p class="award-org">[FILL: Awarding Organization]</p>
+        </div>
+
+        <div class="award-item">
+          <p class="award-year">[FILL: Year]</p>
+          <p class="award-title">[FILL: Award/Achievement Title]</p>
+          <p class="award-org">[FILL: Organization]</p>
+        </div>
+
+      </div>
+
+      <!-- ── Languages ─────────────────────────────────── -->
+      <div class="cv-section">
+        <div class="cv-section-header">
+          <h3>🌐 Languages</h3>
+        </div>
+        <div class="skills-grid">
+          <!-- CUSTOMIZE: Add your languages -->
+          <div class="skill-group">
+            <div class="tags">
+              <span class="tag">English — [FILL: level, e.g., Fluent]</span>
+              <span class="tag">[FILL: Language] — [FILL: Level]</span>
+              <span class="tag">[FILL: Language] — [FILL: Level]</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Download bar (repeated at bottom for convenience) -->
+      <div class="cv-download-bar">
+        <p>Want the full details? Download my CV.</p>
+        <a href="assets/documents/[FILL-YOUR-NAME]-CV.pdf" class="btn btn-primary" target="_blank" rel="noopener" download>
+          ⬇ Download CV (PDF)
+        </a>
+      </div>
+
+    </div><!-- /container -->
+  </section>
+
+  <!-- ── Footer ───────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-social">
+        <a href="https://github.com/anikxz" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/anik-dev-nath/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://scholar.google.com/citations?user=12CVWe8AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <p>&copy; <span id="year"></span> Anik Dev Nath.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Anik Dev Nath - AI Engineer | PhD Applicant in Machine Learning and AI Research">
+  <meta name="keywords" content="AI, Machine Learning, PhD, Research, Computer Science, NLP, Computer Vision">
+  <meta name="author" content="Anik Dev Nath">
+  <meta property="og:title" content="Anik Dev Nath - AI Engineer Portfolio">
+  <meta property="og:description" content="Portfolio showcasing AI/ML projects, publications, and research">
+  <meta property="og:type" content="website">
+  <title>Anik Dev Nath | AI Engineer & PhD Applicant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ── Navigation ──────────────────────────────────────── -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <a href="index.html" class="nav-logo">AnikDevNath<span>.</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu" role="list">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── Hero / About ────────────────────────────────────── -->
+  <header class="hero">
+    <div class="container">
+      <div class="hero-inner">
+
+        <img src="assets/images/picture.JPG" alt="Profile Photo" class="hero-photo">
+
+        <div class="hero-text">
+          <h1>Anik Dev Nath</h1>
+          <p class="hero-subtitle">AI Engineer &bull; Aspiring PhD Candidate</p>
+
+          <!--
+            CUSTOMIZE: 2–3 sentence bio.
+            Focus on your background, current role, and research direction.
+          -->
+          <p>
+            I am an AI Engineer with [FILL: X] years of experience in [FILL: specific areas, e.g., NLP and Computer Vision].
+            My research interests focus on [FILL: e.g., large language models, reasoning, multimodal systems].
+            I am actively applying to PhD programs in Computer Science at top universities with the goal of
+            contributing to [FILL: e.g., fundamental AI research / applied ML research].
+          </p>
+
+          <!-- Research interests as tags -->
+          <div class="interests-list">
+            <!-- CUSTOMIZE: Add/remove interest tags -->
+            <span class="tag">Natural Language Processing</span>
+            <span class="tag">Computer Vision</span>
+            <span class="tag">Deep Learning</span>
+            <span class="tag">Generative AI</span>
+            <span class="tag">[FILL: Interest]</span>
+          </div>
+
+          <!-- PhD status note -->
+          <p class="small" style="color:rgba(255,255,255,.6);">
+            📬 Currently applying to PhD programs for [FILL: Fall 2025 / Fall 2026] intake.
+          </p>
+
+          <!-- CTA buttons -->
+          <div class="btn-group mt-2">
+            <a href="assets/documents/[FILL-YOUR-NAME]-CV.pdf" class="btn btn-primary" target="_blank" rel="noopener">
+              ⬇ Download CV
+            </a>
+            <a href="projects.html" class="btn btn-outline">View Projects</a>
+          </div>
+
+          <!-- Social links -->
+          <div class="hero-links">
+            <a href="https://github.com/anikxz" class="social-link" target="_blank" rel="noopener">
+              ⌥ GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/anik-dev-nath/" class="social-link" target="_blank" rel="noopener">
+              in LinkedIn
+            </a>
+            <a href="https://scholar.google.com/citations?user=12CVWe8AAAAJ&hl=en" class="social-link" target="_blank" rel="noopener">
+              🎓 Google Scholar
+            </a>
+            <a href="[FILL: https://medium.com/@yourhandle]" class="social-link" target="_blank" rel="noopener">
+              ✍ Medium
+            </a>
+          </div>
+        </div><!-- /hero-text -->
+      </div><!-- /hero-inner -->
+    </div>
+  </header>
+
+  <!-- ── Featured Projects ────────────────────────────────── -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="card-grid">
+
+        <!-- PROJECT 1 — customize each card -->
+        <article class="card project-card" data-category="nlp ml">
+          <div class="project-card-icon">🧠</div>
+          <h3>[FILL: Project Title 1]</h3>
+          <p>[FILL: 2–3 sentences describing the problem, your approach, and the result.]</p>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">PyTorch</span>
+            <span class="tag">[FILL: Technology]</span>
+          </div>
+          <p class="project-meta"><strong>Impact:</strong> [FILL: Key metric, e.g., 94.2% accuracy on benchmark X]</p>
+          <div class="project-links">
+            <a href="https://github.com/anikxz" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub</a>
+            <a href="[FILL: Demo/Paper URL or remove]" class="btn btn-sm btn-primary" target="_blank" rel="noopener">Demo</a>
+          </div>
+        </article>
+
+        <!-- PROJECT 2 -->
+        <article class="card project-card" data-category="cv ml">
+          <div class="project-card-icon">👁</div>
+          <h3>[FILL: Project Title 2]</h3>
+          <p>[FILL: Brief description of the project.]</p>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">TensorFlow</span>
+            <span class="tag">[FILL: Technology]</span>
+          </div>
+          <p class="project-meta"><strong>Impact:</strong> [FILL: Key result]</p>
+          <div class="project-links">
+            <a href="https://github.com/anikxz" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub</a>
+            <a href="[FILL: Paper URL or remove]" class="btn btn-sm btn-primary" target="_blank" rel="noopener">Paper</a>
+          </div>
+        </article>
+
+        <!-- PROJECT 3 -->
+        <article class="card project-card" data-category="nlp generative">
+          <div class="project-card-icon">💬</div>
+          <h3>[FILL: Project Title 3]</h3>
+          <p>[FILL: Brief description.]</p>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">HuggingFace</span>
+            <span class="tag">[FILL: Technology]</span>
+          </div>
+          <p class="project-meta"><strong>Impact:</strong> [FILL: Key result]</p>
+          <div class="project-links">
+            <a href="https://github.com/anikxz" class="btn btn-outline btn-sm" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </article>
+
+      </div><!-- /card-grid -->
+
+      <div class="text-center mt-3">
+        <a href="projects.html" class="btn btn-outline">View All Projects →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Recent Publications ──────────────────────────────── -->
+  <section id="publications" style="background:#f8f9fa;">
+    <div class="container">
+      <h2 class="section-title">Recent Publications</h2>
+      <div class="pub-list">
+
+        <!-- PUBLICATION 1 -->
+        <article class="pub-item">
+          <h4>[FILL: Paper Title]</h4>
+          <p class="pub-authors"><strong>Anik Dev Nath</strong>, [FILL: Co-author 1], [FILL: Co-author 2]</p>
+          <p class="pub-venue">[FILL: Conference / Journal Name, Year]</p>
+          <div class="pub-actions">
+            <button class="btn btn-outline btn-sm" data-abstract-toggle="abs-home-1">Abstract ▼</button>
+            <a href="[FILL: PDF URL]" class="btn btn-sm btn-primary" target="_blank" rel="noopener">PDF</a>
+            <button class="btn btn-outline btn-sm" data-bibtex-toggle="bib-home-1">BibTeX</button>
+          </div>
+          <div class="abstract-text" id="abs-home-1">
+            [FILL: Paper abstract text goes here.]
+          </div>
+          <div class="bibtex-block" id="bib-home-1">
+            <pre><button class="bibtex-copy">Copy</button>@inproceedings{[FILL:citationkey],
+  title     = {[FILL: Paper Title]},
+  author    = {Anik Dev Nath and [FILL: Co-author]},
+  booktitle = {[FILL: Conference Name]},
+  year      = {[FILL: Year]},
+  url       = {[FILL: URL]}
+}</pre>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="text-center mt-3">
+        <a href="publications.html" class="btn btn-outline">All Publications →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── About / Research Statement ──────────────────────── -->
+  <section id="about">
+    <div class="container" style="max-width:760px;">
+      <h2 class="section-title">Research Statement</h2>
+      <!--
+        CUSTOMIZE: Write 3–4 sentences about your research vision.
+        Be specific about the problems you want to solve and why.
+      -->
+      <p>
+        [FILL: Describe your core research interest in 1–2 sentences. E.g., "I am broadly interested in
+        building AI systems that can understand and generate language with human-level reasoning."]
+      </p>
+      <p class="mt-2">
+        [FILL: Describe the specific approach or angle you take. E.g., "My current work focuses on
+        improving the factual consistency of large language models through grounding in structured knowledge."]
+      </p>
+      <p class="mt-2">
+        [FILL: Mention any collaborative or interdisciplinary aspects, or long-term goals.]
+      </p>
+    </div>
+  </section>
+
+  <!-- ── Footer ───────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-social">
+        <a href="https://github.com/anikxz" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/anik-dev-nath/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://scholar.google.com/citations?user=12CVWe8AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+        <a href="[FILL: Medium URL]" target="_blank" rel="noopener">Medium</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <p>&copy; <span id="year"></span> Anik Dev Nath. Built with clean HTML/CSS.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

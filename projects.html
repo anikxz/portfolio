@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Anik Dev Nath - AI/ML Research Projects">
+  <meta name="keywords" content="AI, Machine Learning, NLP, Computer Vision, Projects, Research">
+  <meta name="author" content="Anik Dev Nath">
+  <meta property="og:title" content="Projects | Anik Dev Nath">
+  <meta property="og:description" content="AI/ML research projects and engineering work by Anik Dev Nath">
+  <meta property="og:type" content="website">
+  <title>Projects | Anik Dev Nath</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ── Navigation ──────────────────────────────────────── -->
+  <nav class="navbar" role="navigation">
+    <div class="container">
+      <a href="index.html" class="nav-logo">AnikDevNath<span>.</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── Page Header ─────────────────────────────────────── -->
+  <header class="page-header">
+    <div class="container">
+      <h1>Research &amp; Projects</h1>
+      <p>A selection of AI/ML projects — from research prototypes to production systems.</p>
+    </div>
+  </header>
+
+  <!-- ── Projects Section ────────────────────────────────── -->
+  <section>
+    <div class="container">
+
+      <!-- Filter Bar — CUSTOMIZE: set data-category values on cards below -->
+      <div class="filter-bar" role="group" aria-label="Filter projects by category">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="nlp">NLP</button>
+        <button class="filter-btn" data-filter="cv">Computer Vision</button>
+        <button class="filter-btn" data-filter="generative">Generative AI</button>
+        <button class="filter-btn" data-filter="ml">ML Engineering</button>
+        <!-- CUSTOMIZE: Add more categories as needed -->
+      </div>
+
+      <div class="card-grid">
+
+        <!-- ═══════════════════════════════════════════════
+             PROJECT 1
+             CUSTOMIZE: Fill all [FILL:] markers
+             data-category: space-separated keywords matching filter buttons
+             ═══════════════════════════════════════════════ -->
+        <article class="card project-card" data-category="nlp ml">
+          <div class="project-card-icon">🧠</div>
+          <h3>[FILL: Project Title 1]</h3>
+          <p>[FILL: 2–3 sentence description. What problem does it solve? What approach did you take?]</p>
+
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">PyTorch</span>
+            <span class="tag">Transformers</span>
+            <span class="tag">[FILL: Add more tags]</span>
+          </div>
+
+          <p class="project-meta">
+            <strong>Impact / Results:</strong> [FILL: e.g., Achieved 94.2% F1 on dataset X, 2× faster than baseline]
+          </p>
+
+          <!-- Expandable details -->
+          <button class="expand-toggle" data-more="▼ Details" data-less="▲ Hide details">▼ Details</button>
+          <div class="expand-content">
+            <p>[FILL: Longer description. Technical details, methodology, challenges faced, lessons learned.]</p>
+          </div>
+
+          <div class="project-links">
+            <a href="https://github.com/anikxz" class="btn btn-outline btn-sm" target="_blank" rel="noopener">⌥ GitHub</a>
+            <a href="[FILL: Demo URL or remove this link]" class="btn btn-primary btn-sm" target="_blank" rel="noopener">🔗 Demo</a>
+            <!-- <a href="[FILL: Paper URL]" class="btn btn-outline btn-sm" target="_blank" rel="noopener">📄 Paper</a> -->
+          </div>
+        </article>
+
+        <!-- PROJECT 2 -->
+        <article class="card project-card" data-category="cv ml">
+          <div class="project-card-icon">👁</div>
+          <h3>[FILL: Project Title 2]</h3>
+          <p>[FILL: Brief description.]</p>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">TensorFlow</span>
+            <span class="tag">OpenCV</span>
+            <span class="tag">[FILL: Tag]</span>
+          </div>
+          <p class="project-meta"><strong>Impact:</strong> [FILL: Key result]</p>
+          <button class="expand-toggle" data-more="▼ Details" data-less="▲ Hide details">▼ Details</button>
+          <div class="expand-content">
+            <p>[FILL: Extended description, methodology, and outcomes.]</p>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/anikxz" class="btn btn-outline btn-sm" target="_blank" rel="noopener">⌥ GitHub</a>
+            <a href="[FILL: Paper URL or remove]" class="btn btn-primary btn-sm" target="_blank" rel="noopener">📄 Paper</a>
+          </div>
+        </article>
+
+        <!-- PROJECT 3 -->
+        <article class="card project-card" data-category="generative nlp">
+          <div class="project-card-icon">💬</div>
+          <h3>[FILL: Project Title 3]</h3>
+          <p>[FILL: Brief description.]</p>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">HuggingFace</span>
+            <span class="tag">LangChain</span>
+            <span class="tag">[FILL: Tag]</span>
+          </div>
+          <p class="project-meta"><strong>Impact:</strong> [FILL: Key result]</p>
+          <button class="expand-toggle" data-more="▼ Details" data-less="▲ Hide details">▼ Details</button>
+          <div class="expand-content">
+            <p>[FILL: Extended description.]</p>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/anikxz" class="btn btn-outline btn-sm" target="_blank" rel="noopener">⌥ GitHub</a>
+          </div>
+        </article>
+
+        <!-- PROJECT 4 -->
+        <article class="card project-card" data-category="ml">
+          <div class="project-card-icon">📊</div>
+          <h3>[FILL: Project Title 4]</h3>
+          <p>[FILL: Brief description.]</p>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">scikit-learn</span>
+            <span class="tag">[FILL: Tag]</span>
+          </div>
+          <p class="project-meta"><strong>Impact:</strong> [FILL: Key result]</p>
+          <button class="expand-toggle" data-more="▼ Details" data-less="▲ Hide details">▼ Details</button>
+          <div class="expand-content">
+            <p>[FILL: Extended description.]</p>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/anikxz" class="btn btn-outline btn-sm" target="_blank" rel="noopener">⌥ GitHub</a>
+          </div>
+        </article>
+
+        <!-- PROJECT 5 -->
+        <article class="card project-card" data-category="cv generative">
+          <div class="project-card-icon">🎨</div>
+          <h3>[FILL: Project Title 5]</h3>
+          <p>[FILL: Brief description.]</p>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">Diffusion Models</span>
+            <span class="tag">[FILL: Tag]</span>
+          </div>
+          <p class="project-meta"><strong>Impact:</strong> [FILL: Key result]</p>
+          <button class="expand-toggle" data-more="▼ Details" data-less="▲ Hide details">▼ Details</button>
+          <div class="expand-content">
+            <p>[FILL: Extended description.]</p>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/anikxz" class="btn btn-outline btn-sm" target="_blank" rel="noopener">⌥ GitHub</a>
+            <a href="[FILL: Demo URL or remove]" class="btn btn-primary btn-sm" target="_blank" rel="noopener">🔗 Demo</a>
+          </div>
+        </article>
+
+        <!-- PROJECT 6 -->
+        <article class="card project-card" data-category="nlp ml">
+          <div class="project-card-icon">🔍</div>
+          <h3>[FILL: Project Title 6]</h3>
+          <p>[FILL: Brief description.]</p>
+          <div class="tags">
+            <span class="tag">Python</span>
+            <span class="tag">FAISS</span>
+            <span class="tag">RAG</span>
+            <span class="tag">[FILL: Tag]</span>
+          </div>
+          <p class="project-meta"><strong>Impact:</strong> [FILL: Key result]</p>
+          <button class="expand-toggle" data-more="▼ Details" data-less="▲ Hide details">▼ Details</button>
+          <div class="expand-content">
+            <p>[FILL: Extended description.]</p>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/anikxz" class="btn btn-outline btn-sm" target="_blank" rel="noopener">⌥ GitHub</a>
+          </div>
+        </article>
+
+      </div><!-- /card-grid -->
+    </div>
+  </section>
+
+  <!-- ── Footer ───────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-social">
+        <a href="https://github.com/anikxz" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/anik-dev-nath/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://scholar.google.com/citations?user=12CVWe8AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <p>&copy; <span id="year"></span> Anik Dev Nath.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Anik Dev Nath - Technical Writing and Blog Posts on AI/ML">
+  <meta name="keywords" content="AI, Machine Learning, Blog, Technical Writing, NLP, Deep Learning">
+  <meta name="author" content="Anik Dev Nath">
+  <meta property="og:title" content="Blog | Anik Dev Nath">
+  <meta property="og:description" content="Technical articles and insights on AI/ML by Anik Dev Nath">
+  <meta property="og:type" content="website">
+  <title>Blog | Anik Dev Nath</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ── Navigation ──────────────────────────────────────── -->
+  <nav class="navbar" role="navigation">
+    <div class="container">
+      <a href="index.html" class="nav-logo">AnikDevNath<span>.</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="blog.html" class="active">Blog</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── Page Header ─────────────────────────────────────── -->
+  <header class="page-header">
+    <div class="container">
+      <h1>Blog &amp; Writing</h1>
+      <p>Technical articles, tutorials, and insights on AI/ML — published on Medium.</p>
+    </div>
+  </header>
+
+  <!-- ── Blog Posts ──────────────────────────────────────── -->
+  <section>
+    <div class="container">
+
+      <!-- Topic filter -->
+      <div class="filter-bar" role="group" aria-label="Filter posts by topic">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="nlp">NLP</button>
+        <button class="filter-btn" data-filter="cv">Computer Vision</button>
+        <button class="filter-btn" data-filter="llm">LLMs</button>
+        <button class="filter-btn" data-filter="tutorial">Tutorials</button>
+        <button class="filter-btn" data-filter="opinion">Opinion</button>
+        <!-- CUSTOMIZE: Add/remove topic filters -->
+      </div>
+
+      <div class="card-grid">
+
+        <!-- ═══════════════════════════════════════════════
+             BLOG POST 1
+             CUSTOMIZE: Fill all [FILL:] markers.
+             data-category: space-separated, matching filter buttons above.
+             ═══════════════════════════════════════════════ -->
+        <article class="card blog-card" data-category="nlp llm">
+          <!-- Thumbnail (optional) — uncomment and replace src:
+          <img src="[FILL: /assets/images/blog1-thumb.jpg]" alt="[FILL: Article thumbnail]"
+               style="border-radius:6px; margin-bottom:1rem; width:100%; height:160px; object-fit:cover;"
+               loading="lazy">
+          -->
+          <p class="blog-card-date">[FILL: Month DD, YYYY]</p>
+          <h3 class="blog-card-title">
+            <a href="[FILL: Full Medium Article URL]" target="_blank" rel="noopener">
+              [FILL: Article Title]
+            </a>
+          </h3>
+          <p class="blog-card-excerpt">
+            [FILL: First 2–3 sentences or a compelling excerpt from the article that makes the reader want to continue.]
+          </p>
+          <div class="blog-card-tags tags">
+            <span class="tag">NLP</span>
+            <span class="tag">LLM</span>
+            <span class="tag">[FILL: Topic tag]</span>
+          </div>
+          <a href="[FILL: Full Medium Article URL]" class="btn btn-primary btn-sm" target="_blank" rel="noopener">
+            Read on Medium →
+          </a>
+        </article>
+
+        <!-- BLOG POST 2 -->
+        <article class="card blog-card" data-category="tutorial cv">
+          <p class="blog-card-date">[FILL: Month DD, YYYY]</p>
+          <h3 class="blog-card-title">
+            <a href="[FILL: Medium URL]" target="_blank" rel="noopener">
+              [FILL: Article Title 2]
+            </a>
+          </h3>
+          <p class="blog-card-excerpt">
+            [FILL: Excerpt / summary of article.]
+          </p>
+          <div class="blog-card-tags tags">
+            <span class="tag">Tutorial</span>
+            <span class="tag">Computer Vision</span>
+          </div>
+          <a href="[FILL: Medium URL]" class="btn btn-primary btn-sm" target="_blank" rel="noopener">
+            Read on Medium →
+          </a>
+        </article>
+
+        <!-- BLOG POST 3 -->
+        <article class="card blog-card" data-category="opinion llm">
+          <p class="blog-card-date">[FILL: Month DD, YYYY]</p>
+          <h3 class="blog-card-title">
+            <a href="[FILL: Medium URL]" target="_blank" rel="noopener">
+              [FILL: Article Title 3]
+            </a>
+          </h3>
+          <p class="blog-card-excerpt">
+            [FILL: Excerpt.]
+          </p>
+          <div class="blog-card-tags tags">
+            <span class="tag">Opinion</span>
+            <span class="tag">AI Research</span>
+          </div>
+          <a href="[FILL: Medium URL]" class="btn btn-primary btn-sm" target="_blank" rel="noopener">
+            Read on Medium →
+          </a>
+        </article>
+
+        <!-- BLOG POST 4 -->
+        <article class="card blog-card" data-category="tutorial nlp">
+          <p class="blog-card-date">[FILL: Month DD, YYYY]</p>
+          <h3 class="blog-card-title">
+            <a href="[FILL: Medium URL]" target="_blank" rel="noopener">
+              [FILL: Article Title 4]
+            </a>
+          </h3>
+          <p class="blog-card-excerpt">
+            [FILL: Excerpt.]
+          </p>
+          <div class="blog-card-tags tags">
+            <span class="tag">Tutorial</span>
+            <span class="tag">NLP</span>
+          </div>
+          <a href="[FILL: Medium URL]" class="btn btn-primary btn-sm" target="_blank" rel="noopener">
+            Read on Medium →
+          </a>
+        </article>
+
+        <!-- BLOG POST 5 -->
+        <article class="card blog-card" data-category="llm cv">
+          <p class="blog-card-date">[FILL: Month DD, YYYY]</p>
+          <h3 class="blog-card-title">
+            <a href="[FILL: Medium URL]" target="_blank" rel="noopener">
+              [FILL: Article Title 5]
+            </a>
+          </h3>
+          <p class="blog-card-excerpt">
+            [FILL: Excerpt.]
+          </p>
+          <div class="blog-card-tags tags">
+            <span class="tag">Multimodal</span>
+            <span class="tag">LLM</span>
+          </div>
+          <a href="[FILL: Medium URL]" class="btn btn-primary btn-sm" target="_blank" rel="noopener">
+            Read on Medium →
+          </a>
+        </article>
+
+        <!-- BLOG POST 6 -->
+        <article class="card blog-card" data-category="tutorial">
+          <p class="blog-card-date">[FILL: Month DD, YYYY]</p>
+          <h3 class="blog-card-title">
+            <a href="[FILL: Medium URL]" target="_blank" rel="noopener">
+              [FILL: Article Title 6]
+            </a>
+          </h3>
+          <p class="blog-card-excerpt">
+            [FILL: Excerpt.]
+          </p>
+          <div class="blog-card-tags tags">
+            <span class="tag">Tutorial</span>
+          </div>
+          <a href="[FILL: Medium URL]" class="btn btn-primary btn-sm" target="_blank" rel="noopener">
+            Read on Medium →
+          </a>
+        </article>
+
+      </div><!-- /card-grid -->
+
+      <!-- Link to Medium profile -->
+      <div class="text-center mt-3">
+        <p class="text-muted mb-2">Read all my articles on Medium</p>
+        <a href="[FILL: https://medium.com/@yourhandle]" class="btn btn-outline" target="_blank" rel="noopener">
+          Visit Medium Profile →
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── Footer ───────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-social">
+        <a href="https://github.com/anikxz" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/anik-dev-nath/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="[FILL: Medium URL]" target="_blank" rel="noopener">Medium</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <p>&copy; <span id="year"></span> Anik Dev Nath.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
