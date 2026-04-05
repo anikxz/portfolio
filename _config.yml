@@ -1,0 +1,75 @@
+# -----------------------------------------------------------------------------
+# Site settings
+# -----------------------------------------------------------------------------
+
+title: "Dr. [Your Name]"
+first_name: Your
+middle_name:
+last_name: Name
+email: example@example.com
+description: >
+  AI Researcher & PhD Student — Pushing the boundaries of artificial intelligence.
+  Specializing in Machine Learning, Deep Learning, and Natural Language Processing.
+
+footer_text: >
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with
+  <a href="https://github.com/alshedivat/al-folio" target="_blank">al-folio</a> theme.
+
+url: "https://example.github.io"
+baseurl: ""
+last_updated: true
+
+# -----------------------------------------------------------------------------
+# Social integration
+# -----------------------------------------------------------------------------
+
+github_username: example
+twitter_username: example
+linkedin_username: example
+scholar_userid: XXXXXXXXXX
+orcid_id: 0000-0000-0000-0000
+google_analytics: # your GA tracking id
+
+# -----------------------------------------------------------------------------
+# Layout
+# -----------------------------------------------------------------------------
+
+nav_order: [about, publications, projects, blog, cv, teaching, contact]
+
+# -----------------------------------------------------------------------------
+# Build settings
+# -----------------------------------------------------------------------------
+
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-scholar
+
+# -----------------------------------------------------------------------------
+# Jekyll Scholar
+# -----------------------------------------------------------------------------
+
+scholar:
+  last_name: Name
+  first_name: [Your]
+  style: apa
+  locale: en
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+  replace_strings: true
+  join_strings: true
+  details_dir: bibliography
+  details_layout: bibtex.html
+  details_link: Details
+  query: "@*"
+
+# Exclude from processing
+exclude:
+  - admin/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
